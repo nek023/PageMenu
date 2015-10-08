@@ -22,7 +22,8 @@ public class PageMenuController: UIViewController, PageViewControllerDataSource,
     @IBOutlet private weak var scrollViewHeight: NSLayoutConstraint!
     
     private let containerView = UIView()
-    private var menuItems: [UIView?] = []
+    
+    public private(set) var menuItems: [UIView?] = []
     
     private var pageViewController: PageViewController {
         return childViewControllers.first as! PageViewController

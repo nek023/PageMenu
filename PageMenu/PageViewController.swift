@@ -36,9 +36,10 @@ public class PageViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet private(set) weak var scrollView: UIScrollView!
     
     private let containerView = UIView()
-    private var viewControllers: [UIViewController?] = []
     
-    internal private(set) var numberOfPages: Int = 0
+    public private(set) var viewControllers: [UIViewController?] = []
+    
+    public private(set) var numberOfPages: Int = 0
     public private(set) var currentPageIndex: Int = 0
     
     public weak var dataSource: PageViewControllerDataSource?
