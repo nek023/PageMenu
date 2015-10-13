@@ -18,7 +18,7 @@ public class PageMenuController: UIViewController, PageViewControllerDataSource,
     
     // MARK: - Properties
     
-    @IBOutlet private(set) weak var scrollView: UIScrollView!
+    @IBOutlet public private(set) weak var scrollView: UIScrollView!
     @IBOutlet private weak var scrollViewHeight: NSLayoutConstraint!
     
     private let containerView = UIView()

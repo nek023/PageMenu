@@ -33,7 +33,7 @@ public class PageViewController: UIViewController, UIScrollViewDelegate {
     
     // MARK: - Properties
     
-    @IBOutlet private(set) weak var scrollView: UIScrollView!
+    @IBOutlet public private(set) weak var scrollView: UIScrollView!
     
     private let containerView = UIView()
     
