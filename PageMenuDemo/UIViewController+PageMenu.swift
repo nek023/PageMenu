@@ -9,7 +9,7 @@
 import UIKit
 import PageMenu
 
-public extension UIViewController {
+extension UIViewController {
     
     var pageViewController: PageViewController? {
         var viewController = self.parentViewController

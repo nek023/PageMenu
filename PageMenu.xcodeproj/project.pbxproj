@@ -138,6 +138,14 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		AA66EFDA1BCD69D400CC338F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA052401BC52B0B0086F898 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AAA052251BC52B0A0086F898 = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA0523E1BC52B0B0086F898 /* PageMenuTests.swift */,
-				AAA052401BC52B0B0086F898 /* Info.plist */,
+				AA66EFDA1BCD69D400CC338F /* Supporting Files */,
 			);
 			path = PageMenuTests;
 			sourceTree = "<group>";
